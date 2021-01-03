@@ -1,0 +1,11 @@
+# Mac/OSX
+.DS_Store
+
+
+# Editors
+.vscode/
+
+
+
+#pycache
+__pycache__/

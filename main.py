@@ -38,15 +38,12 @@ def main():
 
     x = asyncio.run(getRedditPost(postType, amount))
     count = 0
-    '''
     for i in x:
         count += 1
         createImage(i)
         y = textToSpeech(i)
         combineAudioAndImage(y, count)
     makeFilm()
-
-    '''
 
 
 main()
