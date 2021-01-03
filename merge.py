@@ -8,6 +8,7 @@ except ImportError:
         os.path.realpath(__file__))
     print("Please try \'pip install -r requirements.txt\' to install all required packages")
     print()
+    exit()
 
 
 def combineAudioAndImage(audioLength, videoNumber):
