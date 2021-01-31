@@ -1,8 +1,3 @@
-# Reddit-Content-Farm
-
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -12,11 +7,11 @@
   <p align="center">
     A program that creates a video of reddit posts and adds a TTS narration of the posts
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/zbeucler2018/Reddit-Content-Farm">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/zbeucler2018/Reddit-Content-Farm/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/zbeucler2018/Reddit-Content-Farm/issues">Request Feature</a>
   </p>
 </p>
 
@@ -70,8 +65,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+
 
 
 
@@ -119,7 +113,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/zbeucler2018/Reddit-Content-Farm/issues) for a list of proposed features (and known issues).
 
 
 
@@ -154,21 +148,8 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+* [ReadME Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
 
-####################################################################
-
-A program that creates a video of reddit posts and adds a TTS narration of the posts
 
 
 ## How to use
