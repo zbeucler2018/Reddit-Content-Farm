@@ -64,7 +64,8 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
+* [Python 3](https://www.python.org/downloads/)
+* [Praw](https://praw.readthedocs.io/en/latest/)
 
 
 
@@ -76,29 +77,33 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Make sure pip is up to date.
+* pip
   ```sh
-  npm install npm@latest -g
+  pip install --upgrade pip
   ```
+ * Have a Reddit Account
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Create a Reddit `script` App [here](https://www.reddit.com/prefs/apps)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/zbeucler2018/Reddit-Content-Farm.git
    ```
-3. Install NPM packages
+3. Install PIP packages
    ```sh
-   npm install
+   pip install -r requirements.txt
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
+4. Enter your Reddit app's client ID, client secret, and user agent in `Reddit.py`
+   ```Python
+   reddit = praw.Reddit(client_id="Client ID", client_secret="Client Secret", user_agent="User Agent")
    ```
-
+5. Start the script
+   ```sh
+   Python main.py
+   ```
+   
 
 
 <!-- USAGE EXAMPLES -->
@@ -149,14 +154,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [ReadME Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
-
-
-
-## How to use
-1. Create a reddit app
-2. run pip install -r requirements.txt
-3. Go to Reddit.py and fill in your client ID, Client Secret, and user agent
-4. Run main.py
 
 
 ## ToDo
